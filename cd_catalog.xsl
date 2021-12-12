@@ -12,7 +12,7 @@
           </tr>
           <xsl:for-each select="catalog/cd">
             <xsl:sort select="artist" order="descending"/>
-            <xls:if test="price = 8.20">
+            <xsl:if test="price = 8.20">
               <tr>
                 <td>
                   <xsl:value-of select="title"/>
@@ -21,7 +21,7 @@
                   <xsl:value-of select="artist"/>
                 </td>
               </tr>
-            </xls:if >
+            </xsl:if >
           </xsl:for-each>
         </table>
       </body>
